@@ -19,7 +19,7 @@ variable "validation_method" {
 variable "zone_ids" {
   description = "The ID of the hosted zone to contain this record."
   type        = list(string)
-  default     = ""
+  default     = []
 }
 
 variable "ttl" {
